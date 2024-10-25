@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+
+	<!-- encabezado de la página -->	
+	<head>
+		<title>Título de la página</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="UTF-8">
+		<meta name="description" content="">
+		<meta name="author" content="Nichita & Koldo">
+        <link rel="stylesheet" href="../css/estilos.css">
+		
+	</head>
+	<body>
+		<header>
+                <h1>Encuesta</h1>
+                <nav>
+                    <ul>
+                        <li><a href="../index.html">Volver a la pagina principal</a></li>
+                    </ul>
+                </nav>
+		</header>
+            <form action="#" method="post" enctype="application/x-www-form-urlencoded">
+                    <fieldset>
+                        <label for="nombre">Nombre</label>
+                        <input type="text" name="nombre" placeholder="Nombre" id="nombre" size="20" maxlength="50" required><br>
+                        <label for="email">Email</label>
+                        <input type="email" name="email" placeholder="email@ejemplo.com" id="email" size="20" maxlength="80" required><br>
+                        <label>Comentario</label><br>
+                        <textarea name=”comentarios” placeholder="Comentarios" cols=50 rows=3></textarea>
+                    </fieldset><br>         
+                    <fieldset>
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="Borrar las respuestas">
+                    </fieldset>
+            </form>
+	</body>
+</html>
