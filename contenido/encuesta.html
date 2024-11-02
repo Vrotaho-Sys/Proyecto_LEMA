@@ -9,21 +9,31 @@
 		<meta name="description" content="">
 		<meta name="author" content="Nichita & Koldo">
         <link rel="stylesheet" href="../css/estilos.css">
+        <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
 		
 	</head>
 	<body>
+        <nav class="menu">
+			<div class="logo">Fear and Hunger</div>
+			<input type="checkbox" id="menu-toggle">
+			<label for="menu-toggle" class="menu-icon">&#9776;</label>
+			<ul>
+				<li><a href="../index.html">Inicio</a></li>
+				<li><a href="historia.html">Historia</a></li>
+				<li><a href="personajes.html">Personajes</a></li>
+				<li><a href="mecanicas.html">Mecánicas</a></li>
+				<li><a href="encuesta.html">Encuesta</a></li>
+			</ul>
+		</nav>
 		<header>
                 <h1>Encuesta</h1>
-                <nav>
-                    <ul>
-                        <li><a href="../index.html">Volver a la pagina principal</a></li>
-                    </ul>
-                </nav>
 		</header>
+		<section>
+			<h2>Rellene este formulario</h2>
             <form action="#" method="post" enctype="application/x-www-form-urlencoded">
                     <fieldset>
                         <label for="nombre">Nombre</label>
-                        <input type="text" name="nombre" placeholder="Nombre" id="nombre" size="20" maxlength="50" required><br>
+                        <input type="text" name="nombre" placeholder="Nombre" id="nombre" size="20" maxlength="50" required autocomplete="username"><br>
                         <label for="email">Email</label>
                         <input type="email" name="email" placeholder="email@ejemplo.com" id="email" size="20" maxlength="80" required><br>
                         <label>Comentario</label><br>
@@ -34,5 +44,6 @@
                         <input type="reset" value="Borrar las respuestas">
                     </fieldset>
             </form>
+		</section>
 	</body>
 </html>
