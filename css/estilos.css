@@ -203,6 +203,10 @@ form button:hover {
   color: black;
 }
 
+p.titulo {
+  text-align: center;
+}
+
 @media (max-width: 768px) {
 
   body {
@@ -250,4 +254,16 @@ form button:hover {
     margin: 0 auto; /* Centra la imagen horizontalmente */
   }
 
+}
+
+/* Footer */
+
+footer {
+  font-size: clamp(13px, 2vw, 17px);
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
 }
