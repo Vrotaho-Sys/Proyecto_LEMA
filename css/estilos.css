@@ -207,6 +207,16 @@ p.titulo {
   text-align: center;
 }
 
+.video {
+  align-items: center;
+  text-align: center;
+  align-content: center;
+}
+
+iframe {
+  max-width: 95%;
+}
+
 @media (max-width: 768px) {
 
   body {
