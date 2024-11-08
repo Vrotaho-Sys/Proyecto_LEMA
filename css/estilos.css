@@ -265,6 +265,13 @@ iframe {
   }
 
 }
+.historia {
+  width: 80%;
+  max-width: 400px;
+  display: flex;
+  margin: auto;
+  align-self: center;
+}
 
 /* Footer */
 
